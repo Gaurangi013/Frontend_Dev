@@ -1,0 +1,126 @@
+1. Frontend Development:
+Deals with the part of the website users see and interact with.
+Technologies: HTML, CSS, JavaScript.
+Example: The layout, buttons, and navigation menu of Amazon's homepage.
+
+Backend Development:
+Handles data processing, server logic, and communication with the database.
+Technologies: Node.js, Python (Django/Flask), PHP, Java, SQL.
+Example: When you log in, the backend verifies your credentials and fetches your account details.
+
+Full-Stack Development:
+Involves both frontend and backend tasks.
+Example: A developer building both the user interface and server logic for a food delivery app.
+
+
+2.         [ Client (Browser) ]
+                 |
+                 |  HTTP Request
+                 |
+        -----------------------
+        |   Web Server        |
+        -----------------------
+                 |
+                 |  HTTP Response
+                 |
+        [ Client (Browser) ]
+
+
+
+3. User enters a website URL (e.g., https://www.google.com).
+
+Browser sends an HTTP request to the web server.
+
+Server processes the request and sends back an HTML file.
+
+Browser downloads linked CSS, JS, and images.
+
+Rendering engine parses HTML + CSS and builds the web page layout.
+
+JavaScript executes to add interactivity.
+
+Final web page is displayed on the screen.
+
+
+4. VS Code: Code editor to write and manage code.
+
+Browser (Chrome/Firefox): To view and test websites.
+
+Node.js & npm: To run JavaScript outside browser and manage packages.
+
+Git & GitHub: For version control and project backup.
+
+Live Server Extension: Instantly previews your webpage in the browser while coding.
+
+
+5. A web server stores, processes, and delivers web pages to clients upon request.
+It handles HTTP requests and responses.
+Examples:
+
+Apache HTTP Server
+
+Nginx
+
+Microsoft IIS
+
+Node.js (with Express)
+
+
+6. Frontend Developer: Designs and codes the visual part of the website (HTML, CSS, JS).
+
+Backend Developer: Creates server logic, APIs, and connects the frontend with the database.
+
+Database Administrator (DBA): Manages and secures the database, handles queries, and optimizes performance.
+
+
+7. Download and install VS Code from https://code.visualstudio.com.
+
+Install extensions:
+
+Live Server
+
+Prettier - Code Formatter
+
+HTML CSS Support
+
+JavaScript (ES6) snippets
+
+Create files: index.html, style.css, and script.js.
+
+Right-click index.html → “Open with Live Server”.
+
+
+8. Static Website:
+Shows the same content to every visitor.
+Example: A personal portfolio website made only with HTML & CSS.
+
+Dynamic Website:
+Changes content based on user actions or data.
+Example: Facebook news feed updates differently for every user.
+
+
+9. Browser	      Rendering Engine
+Google Chrome    	Blink
+Mozilla Firefox	  Gecko
+Apple Safari	    WebKit
+Microsoft Edge  	Blink
+Opera           	Blink
+
+
+10. [ Client (Browser) ]
+         |
+         |   HTTP Request
+         v
+[ Web Server ]
+         |
+         |   Query
+         v
+[ Database ]
+         |
+         |   Response Data
+         v
+[ Web Server ]
+         |
+         |   HTTP Response (HTML/CSS/JS)
+         v
+[ Client Displays Web Page ]
