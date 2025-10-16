@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Student Information</title>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif; background:#f7f9fb; padding:24px;">
+  <div style="max-width:520px; margin:0 auto; background:#fff; padding:16px; border-radius:6px;">
+    <h2 style="margin-top:0;">Student Information</h2>
+    <form action="#" method="post">
+      <label for="name" style="display:block; margin-bottom:6px;">Name</label>
+      <input id="name" name="name" type="text" required placeholder="Full Name" style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+
+      <label for="roll" style="display:block; margin-bottom:6px;">Roll Number</label>
+      <input id="roll" name="roll" type="text" required placeholder="Roll Number" style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+
+      <label for="course" style="display:block; margin-bottom:6px;">Course</label>
+      <select id="course" name="course" required style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+        <option value="" disabled selected>Select Course</option>
+        <option value="bsc">B.Sc</option>
+        <option value="bcom">B.Com</option>
+        <option value="btech">B.Tech</option>
+        <option value="ba">B.A</option>
+      </select>
+
+      <button type="submit" style="background:#0078d4; color:#fff; padding:10px 14px; border:none; border-radius:4px; cursor:pointer;">Submit</button>
+    </form>
+  </div>
+</body>
+</html>

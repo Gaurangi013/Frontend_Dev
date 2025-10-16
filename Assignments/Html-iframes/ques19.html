@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form Security Demo</title>
+</head>
+<body style="font-family:Arial, Helvetica, sans-serif; padding:24px; background:#f7f9fb;">
+  <div style="max-width:640px; margin:0 auto; background:#fff; padding:16px; border-radius:6px;">
+    <h2 style="margin-top:0;">Secure Form</h2>
+    <form action="#" method="post" autocomplete="off">
+      <label for="name" style="display:block; margin-bottom:6px;">Name</label>
+      <input id="name" name="name" type="text" required style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+
+      <label for="email" style="display:block; margin-bottom:6px;">Email</label>
+      <input id="email" name="email" type="email" required style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+
+      <label for="password" style="display:block; margin-bottom:6px;">Password</label>
+      <input id="password" name="password" type="password" required style="width:100%; padding:8px; margin-bottom:12px; border:1px solid #ccc; border-radius:4px;">
+
+      <button type="submit" style="background:#0078d4; color:#fff; padding:10px 14px; border:none; border-radius:4px; cursor:pointer;">Submit</button>
+    </form>
+
+    <p style="margin-top:12px; color:#555;">Note: Turning off autocomplete can improve security on shared or public devices by preventing the browser from storing sensitive form values like passwords and card numbers.</p>
+  </div>
+</body>
+</html>
