@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+/* unvisited link */
+a:link {
+  color: blue;
+  
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* on hover */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* on click */
+a:active {
+  color: orange;
+}
