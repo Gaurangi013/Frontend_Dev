@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    grid-template-columns:200px 200px 300px;
+    grid-template-rows:200px 100px;
+    gap:10px;
+}
+
+.child1{
+    border:2px groove red;
+    width:20px;
+    height:20px;
+}
+
+.child2{
+    border:2px groove red;
+    width:20px;
+    height:20px;
+}
+
+.child3{
+    border:2px groove red;
+    width:200px;
+    height:20px;
+}
