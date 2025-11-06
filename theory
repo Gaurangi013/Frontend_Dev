@@ -1,0 +1,12 @@
+ pixel is static in nature it is fixed
+ em depend on parent
+ rem depent on html tag
+ viewport depent on webpage 
+ media queries 5 ways:
+ 1. Fluid Grid ---dont use pixel rather than use em or rem or percentage 
+    2. Flexible Images and width
+    3. Media Queries  -----to crteate break points   
+   4. mobile first design 
+    5. Responsive Typography :- font size adjust according to screen size
+
+ 
